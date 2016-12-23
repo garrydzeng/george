@@ -1,0 +1,23 @@
+{
+  "name": "george",
+  "description": "Generate PAC file from MaxMind GeoIP database.",
+  "version": "0.1.0",
+  "bin": {
+    "george": "./index.js"
+  },
+  "dependencies": {
+    "combined-stream": "^1.0.5",
+    "csv-parse": "^1.1.7",
+    "readable-stream": "^2.2.2",
+    "yargs": "^6.5.0"
+  },
+  "files": [
+    "yarn.lock",
+    "database/GeoLite2-Country-Blocks-IPv4.csv",
+    "database/GeoLite2-Country-Blocks-IPv6.csv",
+    "database/GeoLite2-Country-Locations.csv",
+    "app.js",
+    "george.pac",
+    "index.js"
+  ]
+}
